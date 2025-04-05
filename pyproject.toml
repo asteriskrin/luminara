@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "llm-retriever-and-tavily"
+version = "0.1.0"
+description = "ENV for a chatbot capable of answering questions about stories in PDFs. If it does not know the answer, it will search the internet."
+authors = ["Ryan Garnet Andrianto"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+chainlit = ">=1.2.0,<2.0.0"
+langchain-core = ">=0.3,<0.4"
+langchain-community = ">=0.3.20,<0.4.0"
+langgraph = ">=0.3.21,<0.4.0"
+langchain = ">=0.3.21,<0.4.0"
+notebook = "^7.3.3"
+ipykernel = "^6.29.5"
+chromadb = "^0.6.3"
+langchain-chroma = "^0.2.2"
+langchain-ollama = "^0.3.0"
+pypdf = "^5.4.0"
+langchain-tavily = "^0.1.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

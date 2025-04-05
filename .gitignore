@@ -1,0 +1,4 @@
+__pycache__
+.chainlit
+.files
+data/chroma_db
